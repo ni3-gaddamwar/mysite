@@ -11,14 +11,13 @@ app.get('/', function (req, res) {
 
 
 app.get('/hello', function (req, res) {
-    var person={firstName:'Ravi',lastName:'Tambade',age:47};
+    var person={firstName:'Sam',lastName:'Bhujade',age:23};
     res.send(person);
 });
 
-var server = app.listen(7667, function () {
+var server = app.listen(8888, function () {
     var host = server.address().address
     var port = server.address().port
-    console.log("Example app listening at http://localhost:7667", host, port)
+    console.log("Example app listening at http://localhost:8888", host, port)
 });
-
   
