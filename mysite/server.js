@@ -6,5 +6,5 @@ app.get("/", (request, response) => {
 });
 
 app.listen(8888, () => {
-    res.sendfile(C:\Users\IET\Desktop\mysite\public\+"about.html");
+    console.log("hello my site is running")
 });
